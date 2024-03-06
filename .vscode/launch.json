@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Election",
+            "request": "launch",
+            "mainClass": "Election",
+            "projectName": "Week_5_d74f9658"
+        },
+        {
+            "type": "java",
+            "name": "Launch Format1",
+            "request": "launch",
+            "mainClass": "Format1",
+            "projectName": "Week_5_d74f9658"
+        },
+        {
+            "type": "java",
+            "name": "Launch SleepApp",
+            "request": "launch",
+            "mainClass": "SleepApp",
+            "projectName": "Week_5_d74f9658"
+        },
+        {
+            "type": "java",
+            "name": "Launch TimeConversion",
+            "request": "launch",
+            "mainClass": "TimeConversion",
+            "projectName": "Week_5_d74f9658"
+        }
+    ]
+}
