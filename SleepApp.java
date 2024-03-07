@@ -27,11 +27,11 @@ public class SleepApp {
         System.out.print("Day: ");
         dayNow = input.nextInt();
         input.close();
-        yearsTotal = (yearNow - yearBday);
-        monthsTotal = ((yearsTotal * 12) + (monthNow - monthBday));
-        daysTotal = ((monthsTotal * 30) + (dayNow - dayBday));
-        hoursSlept = (daysTotal * 8);
-        System.out.println("You have been alive for " + daysTotal + "days.");
-        System.out.println("You have spent " + hoursSlept + "hours sleeping.");
+        yearsTotal = (yearNow - yearBday)*365;
+        monthsTotal = (monthNow - monthBday)*30;
+        daysTotal = (dayNow - dayBday);
+        hoursSlept = (daysTotal+monthsTotal+yearsTotal) * 8;
+        System.out.println("You have been alive for " + (daysTotal+monthsTotal+yearsTotal) + " days.");
+        System.out.println("You have spent " + hoursSlept + " hours sleeping.");
     }
 }
