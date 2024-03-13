@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Order",
+            "request": "launch",
+            "mainClass": "Order",
+            "projectName": "Week_5_d74f9658"
+        },
+        {
+            "type": "java",
+            "name": "Launch Taxi",
+            "request": "launch",
+            "mainClass": "Taxi",
+            "projectName": "Week_5_d74f9658"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

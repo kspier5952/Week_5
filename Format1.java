@@ -12,7 +12,7 @@ public class Format1{
         NumberFormat decimal= NumberFormat.getNumberInstance();
         NumberFormat percent= NumberFormat.getPercentInstance();
 
-        System.out.println(money.format(dollars));
+        System.out.println(money.format("Dollars are: " + dollars));
         System.out.println(number.format(num));
         System.out.println(decimal.format(numWithDecimal));
         System.out.println(percent.format(sale));
